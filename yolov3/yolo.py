@@ -27,7 +27,7 @@ class YOLOv3:
         os.makedirs(os.path.dirname(weights_path), exist_ok=True)
 
         if not os.path.isfile(weights_path):
-            url = 'https://pjreddie.com/media/files/yolov3.weights'
+            url = 'https://github.com/patrick013/Object-Detection---Yolov3/raw/master/model/yolov3.weights'
             outdir = os.path.dirname(weights_path)
             download_url(url, outdir)
 
